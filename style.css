@@ -4,10 +4,20 @@
     box-shadow: 2px;
 }
 
+.navbar-collapse {
+    background-color: rgba(0, 0, 0, 0.877);
+    padding: 10px;
+    border-radius: 5px;
+}
+
 .navbar .nav-link {
     color: white;
     text-transform: uppercase;
     font-weight: 900;
+}
+
+.navbar-toggler {
+    background: radial-gradient(circle, rgba(254,180,180,1) 0%, rgba(156,0,0,1) 100%);
 }
 
 .btn {
