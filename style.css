@@ -29,7 +29,7 @@
 .btn-iyot {
     background: radial-gradient(circle, rgba(255, 254, 225, 1) 0%, rgba(255, 11, 11, 1) 79%);
     border: 2px solid rgb(255, 138, 138);
-    border-radius: 60px;
+    border-radius: 10px;
     transition: all ease-in 0.5s;
 }
 
@@ -115,6 +115,83 @@ section {
 .services {
     background: url(konoha.webp);
     background-size: cover;
+}
+
+#review {
+    background: #102581;
+}
+
+#services {
+    background-color: #fafafa;
+}
+
+.testimonial {
+    border: 2px solid #14fc33;
+    padding: 20px;
+    border-radius: 20px;
+    margin-top: 20px;
+}
+
+.testimonial img {
+    width: 75px;
+    border: 2px solid #ffee00;
+    border-radius: 10px;
+}
+
+.faq-section {
+    max-width: 500px;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.accordion-item {
+    margin-bottom: 20px;
+    border-radius: 0 !important;
+}
+
+.accordion-button {
+    background-color: #f8f9fa;
+    border: none;
+    border-bottom: 1px solid #dee2e6;
+    border-radius: 0 !important;
+    padding: 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #343a40;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.accordion-body {
+    border-left: 3px solid #0A1737;
+    padding: 10px 15px;
+    margin-left: 0;
+    background-color: #f8f9fa;
+}
+
+.accordion-button:not(.collapsed) {
+    background-color: #0A1737; ;
+    color: #FFF;
+}
+.accordion-button:hover {
+    background-color: #0A1737;
+    color: #FFF;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: #0A1737 ;
+} 
+
+#footer ul.list-unstyled li a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+#footer ul.list-unstyled li:hover a {
+    color:  rgb(244, 149, 15) ;
+    
 }
 
 /* #about {
