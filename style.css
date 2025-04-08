@@ -194,6 +194,22 @@ footer {
     
 }
 
+@media screen and (max-width:760px) {
+    #h1 {
+        font-size: 45px !important;
+    }
+
+    section {
+        padding: 60px 20px;
+    }
+
+    #about img {
+        height: 300px;
+        width: 300px;
+        margin: 30px;
+    }
+}
+
 /* #about {
     background: url(konoha.webp);
     background-size: cover;
